@@ -2,7 +2,7 @@ import unittest
 
 from devisu.filters import *
 from devisu.sources import *
-from devisu.tests.sources import JSONTweetSourceTestCase
+from devisu.tests.sources_test import JSONTweetSourceTestCase
 
 class FilterTestCase(unittest.TestCase):
   def setUp(self):
